@@ -11,5 +11,5 @@ import { NavBar2Component } from './modulos/nav-bar-2/nav-bar-2.component';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-
+app = "holamundo"
 }
