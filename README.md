@@ -3,7 +3,7 @@
 [Ver Repositorio](https://github.com/Matachora/pioChat.git)
 
 ## Instalación
----
+
 ### Requisitos
 - NodeJS [Descargar](https://nodejs.org/en/download/package-manager)
 
@@ -25,29 +25,28 @@
 ### Correr el proyecto
 
 ## Commits
----
+
 ## Actualizar repositorio
----
+
 ```git pull```
 Asegurate que antes de actualizar el repositorio hayas hecho commit a tus cambios, es una buena practica que cada vez que termines de hacer algo, hagas un commit
 
 ## Guia angular
----
+
 
 ## Extensiones de VS Code para trabajar en el proyecto
----
+
 - Angular Languaje Service
 - _Vue - Official*_ 
 - Auto Import
 
 ## Recursos de apoyo
----
+
 - _Angular_ xD
 - [Uso basico de web sockets](https://socket.io/docs/v4/tutorial/introduction#how-to-use-this-tutorial)
 - [Poryecto de referencia](https://github.com/socketio/socket.io-chat-platform/tree/main)
 
 ## Pendientes
----
 ### UI
 - [ ] Mockup / Borrador de pantallas
 - [ ] Diseño de las pantallas
