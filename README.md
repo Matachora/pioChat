@@ -1,6 +1,7 @@
 # Pio Chat
 
 [Ver Repositorio](https://github.com/Matachora/pioChat.git)
+[Ver Documentación](https://docs.google.com/document/d/1WVgYPODF8jtXPDlxXQwR--tPLZ-Z-t-bIjmlVenVVDg/edit?usp=sharing)
 
 ## Instalación
 
@@ -8,10 +9,13 @@
 - NodeJS [Descargar](https://nodejs.org/en/download/package-manager)
 
 - Angular CLI
-```cd /```
-```npm install -g @angular/cli```
+```shell
+cd /
+npm install -g @angular/cli@latest
+```
 
 - Git/Github [Dercargar](https://git-scm.com/downloads)
+> [!IMPORTANT]
 > Recuerda que tu userName y userEmail deben coincidir con tu nombre y correo de git hub [Configurar nombre y cuenta](https://git-scm.com/book/es/v2/Inicio---Sobre-el-Control-de-Versiones-Configurando-Git-por-primera-vez)
 
 ### Pasos para instalar
@@ -29,7 +33,8 @@
 ## Actualizar repositorio
 
 ```git pull```
-Asegurate que antes de actualizar el repositorio hayas hecho commit a tus cambios, es una buena practica que cada vez que termines de hacer algo, hagas un commit
+> [!WARNING]
+> Asegurate que antes de actualizar el repositorio hayas hecho commit a tus cambios, es una buena practica que cada vez que termines de hacer algo, hagas un commit para evitar que el proyecto se dañe
 
 ## Guia angular
 
