@@ -1,15 +1,27 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
-import { NavBarComponent } from './modulos/nav-bar/nav-bar.component';
-import { NavBar2Component } from './modulos/nav-bar-2/nav-bar-2.component';
+import { RouterModule, RouterOutlet } from '@angular/router';
+
+
   
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, NavBarComponent, NavBar2Component],
+  imports: [RouterOutlet],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-app = "holamundo"
+
+
+  
+// constructor(private _pantallaService: PantallaService, private _authService: AuthService){
+//   this._authService.check().subscribe(
+//     res => {
+//       if (res) {
+//         this._pantallaService.ObtenerSession();
+//         this._pantallaService.DefinirPermisosVisualización();
+//       }
+//     }
+//   )
+// }
 }
