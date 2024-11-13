@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    background-color: #f4f4f4;
+}
+
+/* Estilo del menú lateral */
+.sidebar {
+    width: 60px;
+    height: 100vh;
+    background-color: #075e54; /* Color similar al de WhatsApp */
+    color: white;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    width: 100%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.sidebar ul li {
+    margin: 10px 0; /* Ajusta el margen para reducir espacio entre elementos */
+    display: flex;
+    justify-content: center;
+}
+
+/* Estilo de los enlaces e íconos */
+.sidebar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    transition: background-color 0.3s;
+}
+
+.sidebar ul li img {
+    width: 40px;  /* Tamaño del ícono */
+    height: 40px;
+    border-radius: 50%; /* Redondeado similar a WhatsApp */
+    margin-bottom: 3px; /* Reduce el margen entre las imágenes */
+}
+
+/* Efecto hover para los íconos */
+.sidebar ul li a:hover {
+    background-color: #128c7e; /* Color de hover similar a WhatsApp */
+    border-radius: 10px;
+}
+
+/* Estilo para alinear los íconos en la parte inferior del sidebar */
+.diego {
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1px; /* Reduce el espacio entre las imágenes */
+}
+
+/* Contenido principal */
+.content {
+    flex-grow: 1;
+    padding: auto;
+    background-color: #f4f4f4;
+}
+
+.content h1 {
+    color: #333;
+}
+
+.content .cont{
+    background-color: rgb(153, 93, 15);
+    width: 30%;
+    height: 100%;
+}
+.profile-image img {
+    width: auto;
+    height: auto;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-bottom: 10px;
+    object-fit: contain; 
+}
+.profile-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    object-fit: contain; 
+}
+/* Estilo para los campos de entrada */
+.field {
+    width: auto;
+    margin-bottom: 15px;
+    margin-bottom: 20px;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.field label {
+    display: block;
+    font-size: 1.1em;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: none;
+    font-size: 1em;
+}
+textarea {
+    resize: vertical;
+    min-height: 80px;
+}

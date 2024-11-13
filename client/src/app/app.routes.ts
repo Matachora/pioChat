@@ -1,6 +1,8 @@
 import { Routes } from '@angular/router';
 import { HomePioChatComponent } from './modulos/home-pio-chat/home-pio-chat.component';
 import { LayoutComponent } from './modulos/layout/layout.component';
+import { BarraLateralComponent } from './modulos/barra-lateral/barra-lateral.component';
+import { PerfilComponent } from './modulos/perfil/perfil.component';
 
 export const routes: Routes = [
   {
@@ -26,7 +28,15 @@ export const routes: Routes = [
       {
         path: 'home2', 
         component: HomePioChatComponent
+      },{
+        path: 'barra', 
+        component: BarraLateralComponent
       },
+      {
+        path: 'perfil', 
+        component: PerfilComponent
+      },
+      
       //Si quieres ver tu componente usa esta base
       // {
       //   path: 'url', 
