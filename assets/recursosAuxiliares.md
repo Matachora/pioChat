@@ -16,3 +16,4 @@
 - [Uso básico de web sockets](https://socket.io/docs/v4/tutorial/introduction#how-to-use-this-tutorial)
 - [Proyecto de referencia](https://github.com/socketio/socket.io-chat-platform/tree/main)
 - [Primeros pasos en angular by Google | Inglés](https://www.youtube.com/playlist?list=PL1w1q3fL4pmj9k1FrJ3Pe91EPub2_h4jF)
+- [Notificaciones de escritorio](https://youtu.be/OLAgv1ucQFo?si=BWVGYnquri29-Cdw)
